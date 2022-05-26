@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/stevenmurdoch/RiderProjects/HostedPaymentPage/HPP/HPP.csproj": {}
+  },
+  "projects": {
+    "/Users/stevenmurdoch/RiderProjects/HostedPaymentPage/HPP/HPP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stevenmurdoch/RiderProjects/HostedPaymentPage/HPP/HPP.csproj",
+        "projectName": "HPP",
+        "projectPath": "/Users/stevenmurdoch/RiderProjects/HostedPaymentPage/HPP/HPP.csproj",
+        "packagesPath": "/Users/stevenmurdoch/.nuget/packages/",
+        "outputPath": "/Users/stevenmurdoch/RiderProjects/HostedPaymentPage/HPP/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stevenmurdoch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.20.2, )"
+            },
+            "SpecFlow.Actions.Playwright": {
+              "target": "Package",
+              "version": "[0.1.178, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.52, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
